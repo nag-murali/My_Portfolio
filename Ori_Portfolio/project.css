@@ -1,16 +1,17 @@
 .project {
     height: 400px;
+    
 }
 .single_project_div{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: 300px;
     display: flex;
     margin: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 .projectimg{
    
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 50%;
 }
 
@@ -23,7 +24,7 @@
 }
 .projectinfo{
    display: block;
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     /* float: right; */
     width: 50%;
     /* margin-top: 0; */
@@ -31,7 +32,7 @@
     
 }
 .btns_div{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 60%;
     margin-left: auto;
     margin-right: auto;
@@ -48,7 +49,7 @@
 }
 
 .project_des{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* width: 120%; */
     position: relative;
 }

@@ -1,13 +1,13 @@
 .skills_div{
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     justify-content: center;
 }
 .skill_img_div{
     display: grid;
     grid-template-columns: auto auto  auto auto;
     
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 80%;
     flex-wrap: wrap;
     justify-content: space-between;

@@ -1,3 +1,7 @@
+.about{
+    /* margin-top: 100px; */
+}
+
 .sec_title{
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -12,7 +16,7 @@
 }
 .profileimg{
     width: 40%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     
 }
 .profileimg img{
@@ -23,7 +27,7 @@
 }
 .about_text {
     width: 60%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     background-color: #55d6aa ;
     display: flex;
     align-items: center;
