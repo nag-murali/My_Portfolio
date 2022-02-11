@@ -1,0 +1,72 @@
+.project {
+    height: 400px;
+}
+.single_project_div{
+    border: 1px solid blue;
+    height: 300px;
+    display: flex;
+    margin: 40px;
+    margin-bottom: 50px;
+}
+.projectimg{
+   
+    border: 1px solid black;
+    width: 50%;
+}
+
+.projectimg img{
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.projectinfo{
+   display: block;
+    border: 1px solid orange;
+    /* float: right; */
+    width: 50%;
+    /* margin-top: 0; */
+   
+    
+}
+.btns_div{
+    border: 1px solid blue;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 80px;
+}
+
+.Code{
+    float: left;
+}
+
+.Deploy{
+    float: right;
+}
+
+.project_des{
+    border: 1px solid black;
+    /* width: 120%; */
+    position: relative;
+}
+
+.project_des > p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.span_div{
+    border: 1px solid black;
+    width: 120%;
+    background-color: #444;
+    height: 100px;
+    position: absolute;
+    right: 0;
+   color: white;
+
+}

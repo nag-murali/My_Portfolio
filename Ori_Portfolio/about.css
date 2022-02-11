@@ -1,0 +1,44 @@
+.sec_title{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    color: #444444;
+}
+.profiledes{
+    /* height:400px; */
+    border: 1px solid black;
+    display: flex;
+}
+.profileimg{
+    width: 40%;
+    border: 1px solid red;
+    
+}
+.profileimg img{
+    display: block;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about_text {
+    width: 60%;
+    border: 1px solid green;
+    background-color: #55d6aa ;
+    display: flex;
+    align-items: center;
+    
+}
+
+.about_text > p {
+    font-size: 20px;
+}
+
+.para{
+
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+   font-size: 18px;
+}

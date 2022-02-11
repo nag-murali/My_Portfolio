@@ -1,0 +1,44 @@
+.skills_div{
+    display: flex;
+    border: 1px solid red;
+    justify-content: center;
+}
+.skill_img_div{
+    display: grid;
+    grid-template-columns: auto auto  auto auto;
+    
+    border: 1px solid black;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.each{
+    width: 150px;
+    align-items: center;
+    border: 1px solid #444;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5%;
+}
+
+.each:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.each img{
+    width: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.each p {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #444;
+    font-weight: 500;
+    font-size: 25px;
+}
