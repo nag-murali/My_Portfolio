@@ -1,4 +1,11 @@
-
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
 
 .Scroll_div{
     width: 80%;
@@ -15,6 +22,7 @@
 }
 .homecont{
     display: flex;
+    /* border: 1px solid red; */
 }
 
 .titlecont{
@@ -65,4 +73,27 @@ color: #444444;
  .resbtn:hover{
     background-color: #444;
     color: white;
+}
+
+.res_div{
+    /* border: 1px solid black; */
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 480px){
+
+    .Scroll_div{
+        
+        /* border: 1px solid saddlebrown; */
+    }
+    .homecont{
+        display: block;
+        
+    }
+    .titlecont h1{
+        /* font-size: 30px; */
+    }
+    
 }

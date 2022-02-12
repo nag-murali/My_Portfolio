@@ -1,7 +1,4 @@
-.project {
-    height: 400px;
-    
-}
+
 .single_project_div{
     /* border: 1px solid blue; */
     height: 300px;
@@ -33,7 +30,7 @@
 }
 .btns_div{
     /* border: 1px solid blue; */
-    width: 60%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
@@ -70,4 +67,37 @@
     right: 0;
    color: white;
 
+}
+
+@media screen and (max-width: 1190px ) {
+    .single_project_div{
+        display: block;
+        height: fit-content;
+        width: 100%;
+        height: 600px;
+        margin: auto;
+        margin-bottom: 60px;
+    }
+    .project{
+        /* border: 1px solid salmon; */
+        
+    }
+    .projectimg{
+        width: auto; 
+    }
+    .projectimg img{
+        margin-left: 20px;
+    }
+    .projectinfo{
+        width: 60%;
+        height: 300px;
+        float: right;
+        margin-top: 20px;
+    }
+    .span_div{
+        width: 100%;
+    }
+    .btns_div{
+        width: 80%;
+    }
 }

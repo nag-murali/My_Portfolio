@@ -32,7 +32,7 @@ nav{
     /* border: 1px solid black; */
     float: right;
     height: 70px;
-    font-weight: 500;
+    font-weight:800;
     font-family: 'Work Sans', sans-serif;;
 }
 nav ul{
@@ -83,4 +83,20 @@ li div{
 nav div :hover {
     background-color: white;
     color: #55d6aa;
+}
+
+
+@media screen and (max-width: 480px){
+    .navbar{
+        width: 100%;
+    }
+  nav ul{
+      display: flex;
+      justify-content: space-evenly;
+  }
+
+  nav li:nth-child(5) {
+      margin-right: 5%;
+  }
+   
 }
