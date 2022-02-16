@@ -11,6 +11,7 @@
     width: 80%;
     margin: auto;
     margin-top: 200px;
+    /* border: 1px solid black; */
     /* position: relative;
     min-height: 100vh; */
   
@@ -23,6 +24,7 @@
 .homecont{
     display: flex;
     /* border: 1px solid red; */
+    width: 100%;
 }
 
 .titlecont{
@@ -83,17 +85,40 @@ color: #444444;
 }
 
 @media screen and (max-width: 480px){
+  .Scroll_div {
+      width: 100%;
+  }
+  .homecont{
+      display: block;
+  }
 
-    .Scroll_div{
-        
-        /* border: 1px solid saddlebrown; */
-    }
-    .homecont{
-        display: block;
-        
-    }
-    .titlecont h1{
-        /* font-size: 30px; */
-    }
-    
+  .titlecont{
+      width: 100%;
+     
+  }
+  .titlecont h1,h2{
+      font-size: 26px;
+      text-align: center;
+  }
+
+  .titlecont h2{
+    font-size: 30px;
+}
+
+.gifcont{
+    /* border: 1px solid red; */
+    width: 100%;
+    margin-top: 30px;
+}
+.res_div{
+    width: 100%;
+    margin-top: 50px;
+}
+.resbtn{
+    width: 120px;
+}  
+
+   .Scroll_div{
+       margin-top: 80px;
+   }
 }

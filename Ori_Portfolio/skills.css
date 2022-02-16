@@ -46,3 +46,22 @@
 .each img:nth-child(1){
     width: 80px;
 }
+
+@media screen and (max-width: 480px){ 
+       
+    .skill_img_div{
+        grid-template-columns: auto auto auto;
+        width: 90%;
+        justify-content: space-around;
+        border: 1px solid transparent;
+    }
+    .each{ 
+        width: 120px;
+    }
+    .each p {
+        font-size: 15px;
+    }
+    .each img{ 
+        width: 100px;
+    }
+}
