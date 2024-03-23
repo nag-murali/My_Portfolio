@@ -1,109 +1,132 @@
-body{
-    margin: 0;
-    position: relative;
+body {
+  margin: 0;
+  position: relative;
 }
 
 html {
-    scroll-behavior: smooth;
-   }
-
-.navbar{
-    width:80%;
-    margin: 0 auto;
+  scroll-behavior: smooth;
 }
 
-header{
-    background-color: #55d6aa;
-    /* position: fixed; */
-    position: fixed;
-    top: 0;
-    z-index: 1;
-    width: 100%;
-    
-    
-}
-header::after{
-    content: '';
-    display: table;
-    clear: both;
+.navbar {
+  width: 80%;
+  margin: 0 auto;
 }
 
-nav{
-    /* border: 1px solid black; */
-    float: right;
-    height: 70px;
-    font-weight:800;
-    font-family: 'Work Sans', sans-serif;;
+header {
+  background-color: #55d6aa;
+  /* position: fixed; */
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
 }
-nav ul{
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav {
+  /* border: 1px solid black; */
+  float: right;
+  height: 70px;
+  font-weight: 800;
+  font-family: "Work Sans", sans-serif;
+}
+nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-nav li{
-    display: inline-block;
-    margin-left: 70px;
-    margin-top: 20px;
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  margin-top: 20px;
 }
 
 nav a {
-    color: #444;
-    text-decoration: none;
-    text-transform: uppercase;
-   
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
-nav a:hover{
-    color: #000;
+nav a:hover {
+  color: #000;
 }
 nav a::before {
-    content:'';
-    display: block;
-    width: 100%;
-    background-color: #444;
-    border-radius: 3px;
-    height: 5px;
-    width: 0%;   
-    transition: ease-in-out 250ms;                                                               
+  content: "";
+  display: block;
+  width: 100%;
+  background-color: #444;
+  border-radius: 3px;
+  height: 5px;
+  width: 0%;
+  transition: ease-in-out 250ms;
 }
 
-nav a:hover::before{
-   width: 100%;
+nav a:hover::before {
+  width: 100%;
 }
 
-li div{
-    border: 1px solid #444;
-    padding: 5px;
-    padding-left: 12px;
-    padding-right: 12px;
-   
+li div {
+  border: 1px solid #444;
+  padding: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 nav div :hover {
-    background-color: white;
-    color: #55d6aa;
+  background-color: white;
+  color: #55d6aa;
 }
 
-
-@media screen and (max-width: 480px){
-    .navbar{
-        width: 100%;
-       
-    }
-
-    nav{
-        width: 100%;
-    }
-  nav ul{
-      display: flex;
-      justify-content: space-evenly;
+@media screen and (max-width: 480px) {
+  .navbar {
+    width: 100%;
   }
 
-  nav li{
-      margin-left: 0;
+  nav {
+    width: 100%;
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-evenly;
   }
 
+  nav li {
+    margin-left: 0;
+  }
+}
 
-   
+@media screen and (max-width: 768px) {
+  .navbar {
+    width: 100%;
+  }
+  nav {
+    width: 100%;
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  nav li {
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .navbar {
+    width: 100%;
+  }
+  nav {
+    width: 100%;
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  nav li {
+    margin-left: 0;
+  }
 }

@@ -1,56 +1,55 @@
-  
-  html,
-  body {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 
-.Scroll_div{
-    width: 80%;
-    margin: auto;
-    margin-top: 200px;
-    /* border: 1px solid black; */
-    /* position: relative;
+.Scroll_div {
+  width: 80%;
+  margin: auto;
+  margin-top: 200px;
+  /* border: 1px solid black; */
+  /* position: relative;
     min-height: 100vh; */
-  
 }
 
-.gap{
-    margin-top: 40px;
-    margin-bottom: 100px;
+.gap {
+  margin-top: 40px;
+  margin-bottom: 100px;
 }
-.homecont{
-    display: flex;
-    /* border: 1px solid red; */
-    width: 100%;
-}
-
-.titlecont{
-    /* border: 1px solid black; */
-    width: 60%;
+.homecont {
+  display: flex;
+  /* border: 1px solid red; */
+  width: 100%;
 }
 
-.titlecont h1,h2 {
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Work Sans', sans-serif;
-font-size: 50px;
-color: #444444;
+.titlecont {
+  /* border: 1px solid black; */
+  width: 60%;
 }
 
-.titlecont h2{
-    font-size: 40px;
+.titlecont h1,
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  font-size: 50px;
+  color: #444444;
 }
-.gifcont{
-    /* border: 1px solid red; */
-    width: 50%
+
+.titlecont h2 {
+  font-size: 40px;
 }
-.gifcont img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
+.gifcont {
+  /* border: 1px solid red; */
+  width: 50%;
+}
+.gifcont img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 /* .resbtn{
     border: 1px solid #444;
@@ -61,64 +60,142 @@ color: #444444;
 } */
 
 .resbtn {
-   border: 1px solid #444;
-   color:#444;
-   width: 160px;
-   height: 50px;
-   outline: 0;
-   background-color: transparent;
-   font-family: 'Work Sans', sans-serif;
-   font-weight: 500;
-   font-size: larger;
+  border: 1px solid #444;
+  color: #444;
+  width: 160px;
+  height: 50px;
+  outline: 0;
+  background-color: transparent;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  font-size: larger;
 }
 
- .resbtn:hover{
-    background-color: #444;
-    color: white;
+.resbtn:hover {
+  background-color: #444;
+  color: white;
 }
 
-.res_div{
-    /* border: 1px solid black; */
-    width: 70%;
-    display: flex;
-    justify-content: space-evenly;
+.res_div {
+  /* border: 1px solid black; */
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
   .Scroll_div {
-      width: 100%;
+    width: 100%;
   }
-  .homecont{
-      display: block;
-  }
-
-  .titlecont{
-      width: 100%;
-     
-  }
-  .titlecont h1,h2{
-      font-size: 26px;
-      text-align: center;
+  .homecont {
+    display: block;
   }
 
-  .titlecont h2{
+  .titlecont {
+    width: 100%;
+  }
+  .titlecont h1,
+  h2 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .titlecont h2 {
     font-size: 30px;
-}
+  }
 
-.gifcont{
+  .gifcont {
     /* border: 1px solid red; */
     width: 100%;
     margin-top: 30px;
-}
-.res_div{
+  }
+  .res_div {
     width: 100%;
     margin-top: 50px;
-}
-.resbtn{
+  }
+  .resbtn {
     width: 120px;
-}  
+  }
 
-   .Scroll_div{
-       margin-top: 80px;
-   }
+  .Scroll_div {
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Scroll_div {
+    width: 100%;
+  }
+  .homecont {
+    display: block;
+  }
+
+  .titlecont {
+    width: 100%;
+  }
+  .titlecont h1,
+  h2 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .titlecont h2 {
+    font-size: 30px;
+  }
+
+  .gifcont {
+    /* border: 1px solid red; */
+    width: 100%;
+    margin-top: 30px;
+  }
+  .res_div {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .resbtn {
+    width: 120px;
+  }
+
+  .Scroll_div {
+    margin-top: 80px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .Scroll_div {
+    width: 100%;
+  }
+  .homecont {
+    display: block;
+  }
+
+  .titlecont {
+    width: 100%;
+  }
+  .titlecont h1,
+  h2 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .titlecont h2 {
+    font-size: 30px;
+  }
+
+  .gifcont {
+    /* border: 1px solid red; */
+    width: 100%;
+    margin-top: 30px;
+  }
+  .res_div {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .resbtn {
+    width: 120px;
+  }
+
+  .Scroll_div {
+    margin-top: 80px;
+  }
 }
